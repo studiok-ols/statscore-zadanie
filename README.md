@@ -4,7 +4,7 @@ zapis z rozbudowaną logiką to przede wszystkim „blokowała” – wymuszała
 dodaniu kolejnego produktu. Wykorzystując dziedziczenie i klasę abstrakcji utworzyłem dla każdego produktu oddzielną 
 klasę. Klasa produktu ma narzucona implementację metody updateQuality() ale już w uproszczonej formie – zajmuje się 
 tylko wyliczaniem „jakości” dla danego produktu. Główny zyskiem jest to że dodanie kolejnego produktu nie będzie 
-związane z modyfikacjami klas poza dodawanym produktem i sam opis wyliczania "jakości" w mojej ocenie jest prostszy.
+związane z modyfikacjami klas poza dodawanym produktem i sam opis wyliczania "jakości" w mojej ocenie jest prostszy.1
 
 ## Uwaga do wymagań środowiska PHP 
 PHP 7.3 nie jest już wspierany, Na oficjalnej stronie PHP For Windows najniższą dostępna wersją jest PHP 7.4
